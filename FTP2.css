@@ -24,8 +24,13 @@
 
 /* polices */
 
+.Sous-titre
+{
+  font-family: 'partybusiness';
+  font-size: 2.2em;
+}
 
-.card-body, .gcReward,h5,p, h1, h2, .nameWanted1, .nameWanted, .gc1
+.card-body, .gcReward,h5, h1, .nameWanted1, .nameWanted, .gc1
 {
   font-family:'partybusiness';
 }
@@ -33,6 +38,7 @@
 .navbar, .nav-item, header
 {
   font-family: 'Aniron';
+  font-size: 1.2em;
 }
 
 .Symbol
@@ -41,12 +47,16 @@
   font-family: 'tengwarAnnatar';
 }
 
+.elveSymbol1
+{
+  color: orange;
+  font-family: 'partybusiness';
+}
+
 .fellows1
 {
   font-family: 'Aniron';
 }
-
-
                           /* Carousel */
 
   .carousel-caption {
@@ -205,7 +215,13 @@ h4
   text-decoration: underline orange;
 }
 
-h5 ,p
+h5 
 {
   font-size: 70px;
+}
+
+img
+{
+  max-width: 100%;
+  height: auto;
 }
